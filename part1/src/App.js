@@ -1,6 +1,15 @@
+const Hello = () => {
+  return (
+    <div>
+      <p>Yeah Baby!</p>
+    </div>
+  )
+}
+
 const App = () => (
   <div>
-    <p>Hello world</p>
+    <p>Shaggadelic</p>
+    <Hello />
   </div>
 )
 
